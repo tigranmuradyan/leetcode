@@ -1,12 +1,10 @@
-package java.main;
-
-import java.util.Calendar;
+import random.RandomString;
 
 public class Main {
 
     public static void main(String [] args){
-        Calendar calendar = Calendar.getInstance();
-
+        RandomString rs = new RandomString();
+        rs.generateNumericString(20);
     }
 
 }
